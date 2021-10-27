@@ -1,0 +1,185 @@
+import
+.hero {
+   position: relative;
+   z-index: 1;
+   padding-bottom: 150px;
+}
+.hero__inner{
+   padding: 243px 665px 0 0;
+   width: 100%;
+   max-width: 1110px;
+   margin: 0 auto;
+   background: url('../../../Assets/Images/hero-bg.jpg') center center/cover no-repeat;
+}
+.hero__info {
+   width: 100%;
+   max-width: 445px;
+   height: 357px;
+   background-color: #fff;
+}
+.hero__info__heading {
+   margin: 0;
+   padding: 55px;
+   padding-left: 0;
+   width: 100%;
+   max-width: 400px;
+   vertical-align: top;
+   font-size: 50px;
+   line-height: 50px;
+   line-height: 80%;
+   letter-spacing: -0.45px;
+   color: #33323D;
+}
+.hero__info__link {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   max-width: 200px;
+   margin: 0;
+   text-decoration: none;
+   background-color: #33323D;
+   color: #fff;
+}
+.hero__info__link:hover {
+   background-color: #458577;
+}
+.hero__info__link:hover .hero__info__link__img path{
+   stroke:#D8D8D8;
+}
+.hero__info__link:hover .hero__info__link__span{
+   background-color: #5FB4A2;
+}
+.hero__info__link:active {
+   background-color: #d1cdcd;
+}
+.hero__info__link:active .hero__info__link__img path{
+   stroke:#5FB4A2;
+}
+.hero__info__link:active .hero__info__link__span{
+   background-color: #D8D8D8;
+}
+.hero__info__link__img {
+   margin: 0 15px;
+}
+.hero__info__link__span {
+   display: inline-block;
+   width: 100%;
+   max-width: 152px;
+   padding: 17px;
+   text-align: center;
+   background-color: #203A4C;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+   .hero__inner{
+      background: url('../../../Assets/Images/hero-bg@2x.jpg') center center/cover no-repeat;
+   }
+}
+@media only screen and (max-width: 1060px) {
+   .hero__inner{
+      padding: 322px 174px 0 0;
+   }
+   .hero__info {
+      width: 100%;
+      max-width: 514px;
+      height: 278px;
+      background-color: #fff;
+   }
+   .hero__info__heading {
+      width: 100%;
+      max-width: 458px;
+      padding-bottom: 48px;
+      font-size: 40px;
+      line-height: 42px;
+   }
+}
+@media only screen and (max-width: 934px) {
+   .hero__inner{
+      padding: 322px 174px 0 0;
+      background: url('../../../Assets/Images/hero-bg-tablet.jpg') center center/cover no-repeat;
+   }
+   @media only screen and (-webkit-min-device-pixel-ratio: 2),
+   only screen and (min--moz-device-pixel-ratio: 2),
+   only screen and (-o-min-device-pixel-ratio: 2/1),
+   only screen and (min-device-pixel-ratio: 2),
+   only screen and (min-resolution: 192dpi),
+   only screen and (min-resolution: 2dppx) {
+      .hero__inner{
+         background: url('../../../Assets/Images/hero-bg-tablet@2x.jpg') center center/cover no-repeat;
+      }
+   }
+}
+@media only screen and (max-width: 768px) {
+   .hero {
+      padding-bottom: 96px;
+   }
+}
+@media only screen and (max-width: 655px) {
+   .hero {
+      padding-bottom: 356px;
+   }
+   .hero__inner{
+      position: relative;
+      z-index: 1;
+      padding: 0;
+      height: 500px;
+      background-image: url('../../../Assets/Images/hero-bg-mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+   }
+   @media only screen and (-webkit-min-device-pixel-ratio: 2),
+   only screen and (min--moz-device-pixel-ratio: 2),
+   only screen and (-o-min-device-pixel-ratio: 2/1),
+   only screen and (min-device-pixel-ratio: 2),
+   only screen and (min-resolution: 192dpi),
+   only screen and (min-resolution: 2dppx) {
+      .hero__inner{
+         background-image: url('../../../Assets/Images/hero-bg-mobile@2x.jpg');
+         }
+   }
+   .hero__info {
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-top: 24px;
+      width: 100%;
+      max-width: 311px;
+   }
+   .hero__info__heading {
+      width: 100%;
+      max-width: 311px;
+      padding: 0px;
+      margin-bottom: 48px;
+      
+   }
+}  
+@media only screen and (max-width: 613px){
+   .hero__inner {
+      height: 400px;
+   }
+}
+@media only screen and (max-width: 450px){
+   .hero__inner { 
+      width: 280px;
+      height: 271px;
+   }
+   .hero__info {
+      margin: 0;
+      padding: 0;
+   }
+   .hero__info__heading {
+      width: 100%;
+      max-width: 280px;
+      padding: 0px;
+      margin-bottom: 48px;
+      
+   }
+}
