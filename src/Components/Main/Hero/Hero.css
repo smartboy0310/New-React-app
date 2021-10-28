@@ -1,8 +1,9 @@
-import
+
 .hero {
    position: relative;
    z-index: 1;
    padding-bottom: 150px;
+ 
 }
 .hero__inner{
    padding: 243px 665px 0 0;

@@ -5,28 +5,28 @@ function About () {
       <section className="about" id="about-me">
             <div className="container">
                 <picture className="about__pictures">
-                    <source
+                    <source className = 'about-img'
                     type="image/webp"
                     media="(max-width: 680px)"
-                    srcSet="../../../Assets/Images/about-mobile.webp 1x, ../../../Assets/Images/about-mobile@2x.webp 2x"/>
-                    <source
+                    imageurl="../../../Assets/Images/about-mobile.webp 1x, ../../../Assets/Images/about-mobile@2x.webp 2x"/>
+                    <source className = 'about-img'
                     type="image/webp"
                     media="(max-width: 950px)"
-                    srcSet="../../../Assets/Images/about-tablet.webp 1x, ../../../Assets/Images/about-tablet@2x.webp 2x"/>
+                    imageurl="../../../Assets/Images/about-tablet.webp 1x, ../../../Assets/Images/about-tablet@2x.webp 2x"/>
                     
-                    <source
+                    <source className = 'about-img'
                     type="image/webp" 
-                    srcSet="../../../Assets/Images/about.webp 1x, ../../../Assets/Images/about@2x.webp 2x"
+                    imageurl="../../../Assets/Images/about.webp 1x, ../../../Assets/Images/about@2x.webp 2x"
                     />
-                    <source
+                    <source className = 'about-img'
                     media="(max-width: 680px)"
-                    srcSet="../../../Assets/Images/about-mobile.jpg 1x, ../../../Assets/Images/about-mobile@2x.jpg 2x"/>
-                    <source
+                    imageurl="../../../Assets/Images/about-mobile.jpg 1x, ../../../Assets/Images/about-mobile@2x.jpg 2x"/>
+                    <source className = 'about-img'
                     media="(max-width: 950px)"
-                    srcSet="../../../Assets/Images/about-tablet.jpg  1x, ../../../Assets/Images/about-tablet@2x.jpg 2x"/>
+                    imageurl="../../../Assets/Images/about-tablet.jpg  1x, ../../../Assets/Images/about-tablet@2x.jpg 2x"/>
                     
-                    <img src={aboutImg}
-                    srcSet="../../../Assets/Images/about.jpg 1x, ../../../Assets/Images/about@2x.jpg 2x"
+                    <img className = 'about-img' src={aboutImg}
+                    imageurl="../../../Assets/Images/about.jpg 1x, ../../../Assets/Images/about@2x.jpg 2x"
                     alt="about me"
                     width="540"
                     height="600"
