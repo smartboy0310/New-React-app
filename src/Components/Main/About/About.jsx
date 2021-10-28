@@ -8,27 +8,26 @@ function About () {
                     <source
                     type="image/webp"
                     media="(max-width: 680px)"
-                    srcset="../../../Assets/Images/about-mobile.webp 1x, ../../../Assets/Images/about-mobile@2x.webp 2x"/>
+                    srcSet="../../../Assets/Images/about-mobile.webp 1x, ../../../Assets/Images/about-mobile@2x.webp 2x"/>
                     <source
                     type="image/webp"
                     media="(max-width: 950px)"
-                    srcset="../../../Assets/Images/about-tablet.webp 1x, ../../../Assets/Images/about-tablet@2x.webp 2x"/>
+                    srcSet="../../../Assets/Images/about-tablet.webp 1x, ../../../Assets/Images/about-tablet@2x.webp 2x"/>
                     
                     <source
                     type="image/webp" 
-                    srcset="../../../Assets/Images/about.webp 1x, ../../../Assets/Images/about@2x.webp 2x"
+                    srcSet="../../../Assets/Images/about.webp 1x, ../../../Assets/Images/about@2x.webp 2x"
                     />
                     <source
                     media="(max-width: 680px)"
-                    srcset="../../../Assets/Images/about-mobile.jpg 1x, ../../../Assets/Images/about-mobile@2x.jpg 2x"/>
+                    srcSet="../../../Assets/Images/about-mobile.jpg 1x, ../../../Assets/Images/about-mobile@2x.jpg 2x"/>
                     <source
                     media="(max-width: 950px)"
-                    srcset="../../../Assets/Images/about-tablet.jpg  1x, ../../../Assets/Images/about-tablet@2x.jpg 2x"/>
+                    srcSet="../../../Assets/Images/about-tablet.jpg  1x, ../../../Assets/Images/about-tablet@2x.jpg 2x"/>
                     
-                    <img
-                    src={aboutImg}
-                    srcset="../../../Assets/Images/about.jpg 1x, ../../../Assets/Images/about@2x.jpg 2x"
-                    alt="about me image"
+                    <img src={aboutImg}
+                    srcSet="../../../Assets/Images/about.jpg 1x, ../../../Assets/Images/about@2x.jpg 2x"
+                    alt="about me"
                     width="540"
                     height="600"
                     />
